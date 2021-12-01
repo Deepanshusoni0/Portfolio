@@ -42,7 +42,7 @@ h1,h2, h3, h4, h5, h6{
   left: 20%;
   top:0%;
   padding-bottom: 20px;
-  background-image: url(background1.jpg);
+  background-image: url(images/background1.jpg);
   background-size: cover;
 }
 
@@ -332,8 +332,10 @@ i:hover{
 }
   header h1{
     font-size: 36px;
-    display: block;
-    text-align: right;
+    /* display: block; */
+    margin-top: 170%;
+    text-align: center;
+    margin-left:5%;
 
   }
 
@@ -365,5 +367,29 @@ i:hover{
       display: block;
       position: absolute;
       margin-bottom: 20px;
+    }
+
+    .box2{
+      margin-left: 0%;
+      position: fixed;
+
+    }
+
+    nav{
+      display: none;
+    }
+
+    .box3{
+      width: 100%;
+      position: absolute;
+    }
+
+    footer{
+      display: none;
+      height: 0%;
+    }
+
+    .nav navbar-nav{
+      display: none;
     }
   }
